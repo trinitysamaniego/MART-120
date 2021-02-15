@@ -1,0 +1,37 @@
+<html>
+
+<title>homepage</title>
+
+<h1>Some of My Favorite Things</h1>
+
+
+  <body>
+    <h2>Hobbies of Mine</h2>
+    <ul>
+        <li>Photography</li>
+        <li>Drawing</li>
+        <li>Playing video games</li>
+        <li>Cooking</li>
+    </ul>
+    <br />
+    <h2>Favorite Restaurants</h2>
+    <ul>
+        <li>  <a href= "http://www.becausepancakes.com/"> Paul's Pancake Parlor</a> </li>
+        <li>  <a href= "https://www.mackenzieriverpizza.com/"> McKenzie River Pizza</a> </li>
+        <li>  <a href= "https://www.bobsrestaurantrosenbergtx.com/"> Bob's Taco Stand</a> </li>
+    </ul>
+    <br />
+    <h2>Favorite Websites</h2>
+    <ol>
+        <li>  <a href= "https://awkwardfamilyphotos.com/"> Awkward Family Photos</a> </li>
+        <li>  <a href= "https://www.reddit.com/"> Reddit</a> </li>
+        <li>  <a href= "https://www.boredpanda.com/"> Bored Panda</a> </li>
+    </body>
+
+<br />
+
+<a href= "Samaniego_SecondPage.htlm"> A Short Story</a>
+<br />
+<a href= "Samaniego_ThirdPage.htlm"> Terms of Service</a>
+
+    </html>

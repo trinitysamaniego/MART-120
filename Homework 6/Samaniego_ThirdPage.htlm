@@ -1,0 +1,19 @@
+<html>
+
+<title>thirdpage</title>
+
+<h1>Contact Us</h1>
+<br />
+
+<body>
+
+    <form action="nextPage.html" type="Post">
+        First Name: <input type="text" id="fName"><br>
+        Last Name: <input type="text" id="lName"><br>
+        Email Address: <input type="text" id="eAddress"><br>
+        <p>Accept Terms of Service?</p>
+        <button id="Yes" type="yes">Yes</button> <button id="No" type="no">No</button>
+    </form>
+</body>
+
+</html>
