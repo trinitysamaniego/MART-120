@@ -1,0 +1,22 @@
+<html>
+
+<title>thirdpage</title>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> 
+</head>
+
+<h1>Contact Us</h1>
+<br />
+
+<body>
+
+    <form action="nextPage.html" type="Post">
+        First Name: <input type="text" id="fName"><br>
+        Last Name: <input type="text" id="lName"><br>
+        Email Address: <input type="text" id="eAddress"><br>
+        <p>Accept Terms of Service?</p>
+        <button id="Yes" type="yes">Yes</button> <button id="No" type="no">No</button>
+    </form>
+</body>
+
+</html>
