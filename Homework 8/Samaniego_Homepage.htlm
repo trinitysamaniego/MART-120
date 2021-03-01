@@ -1,0 +1,48 @@
+<html>
+
+<title>homepage</title>
+
+<head>
+  <style>
+    span{
+      font-size:medium;
+    }
+  </style>
+</head>
+
+<h1>Some of My Favorite Things</h1>
+
+
+  <body>
+    <h2><span style="font-family:Georgia, Garamond, Serif;font-size:large">Hobbies of Mine</span></h2>
+    <ul>
+      <span><li>Photography</li></span>
+      <span><li>Drawing</li></span>
+      <span><li>Playing video games</li></span>
+      <span><li>Cooking</li></span>
+    </ul>
+    <br />
+
+    <h2><span style="font-family:Georgia, Garamond, Serif;font-size:large">Favorite Restaurants</span></h2>
+    <ul>
+        <span><li>  <a href= "http://www.becausepancakes.com/"> Paul's Pancake Parlor</a> </li></span>
+        <span><li>  <a href= "https://www.mackenzieriverpizza.com/"> McKenzie River Pizza</a> </li>
+        <span><li>  <a href= "https://www.bobsrestaurantrosenbergtx.com/"> Bob's Taco Stand</a> </li></span>
+    </ul>
+    <br />
+
+    <h2><span style="font-family:Georgia, Garamond, Serif;font-size:large">Favorite Websites</span></h2>
+    <ul>
+        <span> <li>  <a href= "https://awkwardfamilyphotos.com/"> Awkward Family Photos</a> </li> </span>
+        <span> <li>  <a href= "https://www.reddit.com/"> Reddit</a> </li> </span>
+        <span> <li>  <a href= "https://www.boredpanda.com/"> Bored Panda</a> </li> </span>
+    </ul>
+  </body>
+
+<br />
+
+<a href= "Samaniego_SecondPage.htlm"> A Short Story</a>
+<br />
+<a href= "Samaniego_ThirdPage.htlm"> Terms of Service</a>
+
+</html>
