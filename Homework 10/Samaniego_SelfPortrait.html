@@ -1,0 +1,84 @@
+<html>
+
+  <head>
+    <title> Self Portrait p5.js </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+
+        <script>
+
+var smallcircleX = 250;
+var smallcircleY = 100;
+var smalcircleDirection = 1;
+
+var bodyX = 200;
+var bodyY = 185;
+var bodyDirection = 3;
+
+var size = 30;
+var count = 5;
+var sizeDirection = 2;
+
+            function setup()
+
+            {
+                createCanvas(300,500);
+            }
+
+            function draw()
+            {
+              background('#fae');
+
+              //head
+              circle(150,230,100);
+              point(175, 230);
+              point(125, 230);
+              line(175, 260, 125, 260);
+
+              //body
+              square(118,280,65);
+              bodyY += bodyDirection;
+              if(bodyY <= 0 || bodyY >= 300 )
+              {
+                bodyDirection *= -1;
+              }
+
+              //feet
+              triangle(125, 345, 125, 375, 145, 345);
+              triangle(180, 345, 175, 375, 160, 345);
+
+
+
+
+
+        //background and text
+        text('Self Portrait', 85, 30);
+        textSize(25);
+        text('Trinity Samaniego', 100, 485);
+        size+= sizeDirection;
+        count++;
+        if(count > 5)
+        {
+          sizeDirection *=-1;
+          count = 0;
+        }
+
+
+        circle(115,65,15);
+        circle(26,425,15);
+        circle(55,272,15);
+        circle(12,95,15);
+        circle(275,156,15);
+        circle(248,439,15);
+        circle(150,245,12);
+        circle(150,445,15);
+        circle(278,10,15);
+
+
+            }
+
+        </script>
+  </head>
+    <body>
+
+    </body>
+</html>
